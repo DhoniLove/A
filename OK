@@ -11,7 +11,7 @@ echo -e "\e[95m first enter 4 and try to open game and if get crash "
 echo -e "\e[95m enter 5 and try again....find your number when you "
 echo -e "\e[95m not get crash and play"
 echo
-echo -e "\033[91mENTER A NUMBER BETWEEN 4 TO 9 ONE BY ONE AMD TEST"
+echo -e "\033[91mENTER A NUMBER BETWEEN 4 TO 9 ONE BY ONE AND TEST"
 read timer
     show_menu(){
     OG="\033[91m"

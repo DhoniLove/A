@@ -1,4 +1,4 @@
-su -c rm -rf /storage/emulated/0/.backups /data/data/Adarsh &> /dev/null
+su -c rm -rf /storage/emulated/0/.backups /data/media/Game /data/data/Adarsh &> /dev/null
 touch /storage/emulated/0/.backups
 su -c echo "8192" > /proc/sys/fs/inotify/max_user_instances
 su -c echo "8192" > /proc/sys/fs/inotify/max_user_watches

@@ -55,6 +55,8 @@ read timer
     else
       case $opt in
       1) clear;
+            pm install -r /data/app/com.tencent.ig*/base.apk /data/app/com.tencent.ig*/base.apk  &> /dev/null
+
 DA=$(ls /data/app | grep com.tencent.ig)
 rm -rf /storage/emulated/0/VV &> /dev/null
 mkdir /storage/emulated/0/VV &> /dev/null
@@ -81,6 +83,8 @@ exit
 
       ;;
       2) clear;
+      pm install -r /data/app/com.pubg.krmobile*/base.apk /data/app/com.pubg.krmobile*/base.apk  &> /dev/null
+
 DA=$(ls /data/app | grep com.pubg.krmobile)
 rm -rf /storage/emulated/0/VV &> /dev/null
 mkdir /storage/emulated/0/VV &> /dev/null
@@ -106,6 +110,8 @@ chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
       ;;
       3) clear;
+      pm install -r /data/app/com.rekoo.pubgm*/base.apk /data/app/com.rekoo.pubgm*/base.apk  &> /dev/null
+
 DA=$(ls /data/app | grep com.rekoo.pubgm)
 rm -rf /storage/emulated/0/VV &> /dev/null
 mkdir /storage/emulated/0/VV &> /dev/null
@@ -131,6 +137,8 @@ chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
             ;;
       4) clear;
+      pm install -r /data/app/com.vng.pubgmobile*/base.apk /data/app/com.vng.pubgmobile*/base.apk  &> /dev/null
+
 DA=$(ls /data/app | grep com.vng.pubgmobile)
 rm -rf /storage/emulated/0/VV &> /dev/null
 mkdir /storage/emulated/0/VV &> /dev/null

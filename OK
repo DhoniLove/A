@@ -11,7 +11,7 @@ echo -e "\e[95m first enter 4 and try to open game and if get crash "
 echo -e "\e[95m enter 5 and try again....find your number when you "
 echo -e "\e[95m not get crash and play"
 echo
-echo -e "\033[91mENTER A NUMBER BETWEEN 4 TO 9 ONE BY ONE AND TEST"
+echo -e "\033[91mENTER A NUMBER BETWEEN 4 TO 9 ONE BY ONE AMD TEST"
 read timer
     show_menu(){
     OG="\033[91m"
@@ -56,102 +56,102 @@ read timer
       case $opt in
       1) clear;
 DA=$(ls /data/app | grep com.tencent.ig)
-rm -rf /sdcard/VV &> /dev/null
-mkdir /sdcard/VV &> /dev/null
-mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /sdcard/VV &> /dev/null
+rm -rf /storage/emulated/0/VV &> /dev/null
+mkdir /storage/emulated/0/VV &> /dev/null
+mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /storage/emulated/0/VV &> /dev/null
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
 sleep $timer
-rm -rf /sdcard/VVIP &> /dev/null
-mkdir /sdcard/VVIP &> /dev/null
-cp /data/app/$DA/lib/arm*/libTDataMaster.so /sdcard/VVIP &> /dev/null
+rm -rf /storage/emulated/0/VVIP &> /dev/null
+mkdir /storage/emulated/0/VVIP &> /dev/null
+cp /data/app/$DA/lib/arm*/libTDataMaster.so /storage/emulated/0/VVIP &> /dev/null
 mv /data/app/$DA/lib/arm*/libTDataMaster.so /data/app/$RANDOM &> /dev/null
 
-mv /data/app/$DA/lib/arm*/libtersafe.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libUE4.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libtprt.so /sdcard/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtersafe.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libUE4.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtprt.so /storage/emulated/0/VVIP &> /dev/null
 #
 sleep 3
-mv /sdcard/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 #
 sleep 18
-mv /sdcard/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
 
       ;;
       2) clear;
 DA=$(ls /data/app | grep com.pubg.krmobile)
-rm -rf /sdcard/VV &> /dev/null
-mkdir /sdcard/VV &> /dev/null
-mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /sdcard/VV &> /dev/null
+rm -rf /storage/emulated/0/VV &> /dev/null
+mkdir /storage/emulated/0/VV &> /dev/null
+mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /storage/emulated/0/VV &> /dev/null
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity &> /dev/null
 sleep $timer
-rm -rf /sdcard/VVIP &> /dev/null
-mkdir /sdcard/VVIP &> /dev/null
-cp /data/app/$DA/lib/arm*/libTDataMaster.so /sdcard/VVIP &> /dev/null
+rm -rf /storage/emulated/0/VVIP &> /dev/null
+mkdir /storage/emulated/0/VVIP &> /dev/null
+cp /data/app/$DA/lib/arm*/libTDataMaster.so /storage/emulated/0/VVIP &> /dev/null
 mv /data/app/$DA/lib/arm*/libTDataMaster.so /data/app/$RANDOM &> /dev/null
 
-mv /data/app/$DA/lib/arm*/libtersafe.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libUE4.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libtprt.so /sdcard/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtersafe.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libUE4.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtprt.so /storage/emulated/0/VVIP &> /dev/null
 #
 sleep 3
-mv /sdcard/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 #
 sleep 18
-mv /sdcard/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
       ;;
       3) clear;
 DA=$(ls /data/app | grep com.rekoo.pubgm)
-rm -rf /sdcard/VV &> /dev/null
-mkdir /sdcard/VV &> /dev/null
-mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /sdcard/VV &> /dev/null
+rm -rf /storage/emulated/0/VV &> /dev/null
+mkdir /storage/emulated/0/VV &> /dev/null
+mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /storage/emulated/0/VV &> /dev/null
 am start -n com.rekoo.pubgm/com.epicgames.ue4.SplashActivity &> /dev/null
 sleep $timer
-rm -rf /sdcard/VVIP &> /dev/null
-mkdir /sdcard/VVIP &> /dev/null
-cp /data/app/$DA/lib/arm*/libTDataMaster.so /sdcard/VVIP &> /dev/null
+rm -rf /storage/emulated/0/VVIP &> /dev/null
+mkdir /storage/emulated/0/VVIP &> /dev/null
+cp /data/app/$DA/lib/arm*/libTDataMaster.so /storage/emulated/0/VVIP &> /dev/null
 mv /data/app/$DA/lib/arm*/libTDataMaster.so /data/app/$RANDOM &> /dev/null
 
-mv /data/app/$DA/lib/arm*/libtersafe.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libUE4.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libtprt.so /sdcard/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtersafe.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libUE4.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtprt.so /storage/emulated/0/VVIP &> /dev/null
 #
 sleep 3
-mv /sdcard/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 #
 sleep 18
-mv /sdcard/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
             ;;
       4) clear;
 DA=$(ls /data/app | grep com.vng.pubgmobile)
-rm -rf /sdcard/VV &> /dev/null
-mkdir /sdcard/VV &> /dev/null
-mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /sdcard/VV &> /dev/null
+rm -rf /storage/emulated/0/VV &> /dev/null
+mkdir /storage/emulated/0/VV &> /dev/null
+mv /data/app/$DA/lib/arm*/{*Bug*,*arc*,*help*,*big*,*blb*,*npp*,*eng*,*zip*} /storage/emulated/0/VV &> /dev/null
 am start -n com.vng.pubgmobile/com.epicgames.ue4.SplashActivity &> /dev/null
 sleep $timer
-rm -rf /sdcard/VVIP &> /dev/null
-mkdir /sdcard/VVIP &> /dev/null
-cp /data/app/$DA/lib/arm*/libTDataMaster.so /sdcard/VVIP &> /dev/null
+rm -rf /storage/emulated/0/VVIP &> /dev/null
+mkdir /storage/emulated/0/VVIP &> /dev/null
+cp /data/app/$DA/lib/arm*/libTDataMaster.so /storage/emulated/0/VVIP &> /dev/null
 mv /data/app/$DA/lib/arm*/libTDataMaster.so /data/app/$RANDOM &> /dev/null
 
-mv /data/app/$DA/lib/arm*/libtersafe.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libUE4.so /sdcard/VVIP &> /dev/null
-mv /data/app/$DA/lib/arm*/libtprt.so /sdcard/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtersafe.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libUE4.so /storage/emulated/0/VVIP &> /dev/null
+mv /data/app/$DA/lib/arm*/libtprt.so /storage/emulated/0/VVIP &> /dev/null
 #
 sleep 3
-mv /sdcard/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VVIP/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 #
 sleep 18
-mv /sdcard/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
+mv /storage/emulated/0/VV/* /data/app/$DA/lib/arm*/ &> /dev/null
 chmod 755 /data/app/$DA/lib/arm*/* &> /dev/null
 exit
   ;;
